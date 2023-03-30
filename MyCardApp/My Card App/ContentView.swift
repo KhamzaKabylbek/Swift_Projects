@@ -21,30 +21,47 @@ struct ContentView: View {
                     .font(.title3)
                     .fontWeight(.regular)
                 Divider()
+                
+                RoundedRectangle(cornerRadius: 25).padding(.horizontal).frame(height: 50.0).overlay{
+                    Link("My Instagram", destination: URL(string: "https://instagram.com/khammzza11?igshid=YmMyMTA2M2Y=")!)
+                        .font(.headline)
+                        .foregroundColor(Color.black)
+                }.foregroundColor(Color .white)
+                
+                RoundedRectangle(cornerRadius: 25)
+                    .padding(.horizontal)
+                    .frame(height: 50.0)
+                    .overlay(HStack {
+                    Image(systemName: "phone.fill" )
+                        .foregroundColor(Color(red: 0.10, green: 0.74, blue: 0.61))
+                        Link("8(778)825-43-03", destination: URL(string: "tel:87788254303")!)
+                            .font(.headline)
+                            .foregroundColor(Color.black)
+                }).foregroundColor(Color .white)
+                
+                RoundedRectangle(cornerRadius: 25)
+                    .padding(.horizontal)
+                    .frame(height: 50.0)
+                    .overlay(HStack {
+                    Image(systemName: "envelope" )
+                        .foregroundColor(Color(red: 0.10, green: 0.74, blue: 0.61))
+                        Link("Write me an Email", destination: URL(string: "https://mail.google.com/mail/u/0/#inbox")!)
+                            .font(.headline)
+                            .foregroundColor(Color.black)
+                }).foregroundColor(Color .white)
+                
+                
 
-                Card(image: "phone.fill", message: "8 (778)-825-43-03")
-                Card(image: "envelope.fill", message: "xamza110011@mail.com")
-            }.foregroundColor(Color .white)
+
+                        
+            }
         }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
-
-struct Card: View {
-    let image:String
-    let message:String
-    var body: some View {
-        RoundedRectangle(cornerRadius: 25).padding(.horizontal).frame(height: 50.0).overlay(HStack {
-            Image(systemName: image)
-                .foregroundColor(Color(red: 0.10, green: 0.74, blue: 0.61))
-            Text(message)
-                .font(.headline)
-                .foregroundColor(Color.black)
-        })
-    }
+    
 }

@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0FD8B529BC7C5F0064604F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8B429BC7C5F0064604F /* ContentView.swift */; };
+		BB0FD8B729BC7C600064604F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0FD8B629BC7C600064604F /* Assets.xcassets */; };
+		BB0FD8BA29BC7C600064604F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0FD8B929BC7C600064604F /* Preview Assets.xcassets */; };
+		BB0FD8C429BC7C600064604F /* Pomo_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8C329BC7C600064604F /* Pomo_TimerTests.swift */; };
+		BB0FD8CE29BC7C600064604F /* Pomo_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8CD29BC7C600064604F /* Pomo_TimerUITests.swift */; };
+		BB0FD8D029BC7C600064604F /* Pomo_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8CF29BC7C600064604F /* Pomo_TimerUITestsLaunchTests.swift */; };
+		BB0FD8DD29BC7CA00064604F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8DC29BC7CA00064604F /* AppDelegate.swift */; };
+		BB0FD8DF29BC7CDD0064604F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8DE29BC7CDC0064604F /* SceneDelegate.swift */; };
+		BB0FD8E129BC7D0E0064604F /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8E029BC7D0E0064604F /* TimerManager.swift */; };
+		BB0FD8E329BC7D380064604F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FD8E229BC7D380064604F /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0FD8C029BC7C600064604F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0FD8A729BC7C5F0064604F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0FD8AE29BC7C5F0064604F;
+			remoteInfo = "Pomo Timer";
+		};
+		BB0FD8CA29BC7C600064604F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0FD8A729BC7C5F0064604F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0FD8AE29BC7C5F0064604F;
+			remoteInfo = "Pomo Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0FD8AF29BC7C5F0064604F /* Pomo Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomo Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0FD8B429BC7C5F0064604F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0FD8B629BC7C600064604F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0FD8B929BC7C600064604F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB0FD8BF29BC7C600064604F /* Pomo TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pomo TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0FD8C329BC7C600064604F /* Pomo_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomo_TimerTests.swift; sourceTree = "<group>"; };
+		BB0FD8C929BC7C600064604F /* Pomo TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pomo TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0FD8CD29BC7C600064604F /* Pomo_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomo_TimerUITests.swift; sourceTree = "<group>"; };
+		BB0FD8CF29BC7C600064604F /* Pomo_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomo_TimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB0FD8DC29BC7CA00064604F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB0FD8DE29BC7CDC0064604F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB0FD8E029BC7D0E0064604F /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		BB0FD8E229BC7D380064604F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0FD8AC29BC7C5F0064604F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FD8BC29BC7C600064604F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FD8C629BC7C600064604F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0FD8A629BC7C5F0064604F = {
+			isa = PBXGroup;
+			children = (
+				BB0FD8B129BC7C5F0064604F /* Pomo Timer */,
+				BB0FD8C229BC7C600064604F /* Pomo TimerTests */,
+				BB0FD8CC29BC7C600064604F /* Pomo TimerUITests */,
+				BB0FD8B029BC7C5F0064604F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0FD8B029BC7C5F0064604F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FD8AF29BC7C5F0064604F /* Pomo Timer.app */,
+				BB0FD8BF29BC7C600064604F /* Pomo TimerTests.xctest */,
+				BB0FD8C929BC7C600064604F /* Pomo TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0FD8B129BC7C5F0064604F /* Pomo Timer */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FD8E229BC7D380064604F /* Helper.swift */,
+				BB0FD8E029BC7D0E0064604F /* TimerManager.swift */,
+				BB0FD8DE29BC7CDC0064604F /* SceneDelegate.swift */,
+				BB0FD8DC29BC7CA00064604F /* AppDelegate.swift */,
+				BB0FD8B429BC7C5F0064604F /* ContentView.swift */,
+				BB0FD8B629BC7C600064604F /* Assets.xcassets */,
+				BB0FD8B829BC7C600064604F /* Preview Content */,
+			);
+			path = "Pomo Timer";
+			sourceTree = "<group>";
+		};
+		BB0FD8B829BC7C600064604F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FD8B929BC7C600064604F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB0FD8C229BC7C600064604F /* Pomo TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FD8C329BC7C600064604F /* Pomo_TimerTests.swift */,
+			);
+			path = "Pomo TimerTests";
+			sourceTree = "<group>";
+		};
+		BB0FD8CC29BC7C600064604F /* Pomo TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FD8CD29BC7C600064604F /* Pomo_TimerUITests.swift */,
+				BB0FD8CF29BC7C600064604F /* Pomo_TimerUITestsLaunchTests.swift */,
+			);
+			path = "Pomo TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0FD8AE29BC7C5F0064604F /* Pomo Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0FD8D329BC7C600064604F /* Build configuration list for PBXNativeTarget "Pomo Timer" */;
+			buildPhases = (
+				BB0FD8AB29BC7C5F0064604F /* Sources */,
+				BB0FD8AC29BC7C5F0064604F /* Frameworks */,
+				BB0FD8AD29BC7C5F0064604F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pomo Timer";
+			productName = "Pomo Timer";
+			productReference = BB0FD8AF29BC7C5F0064604F /* Pomo Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0FD8BE29BC7C600064604F /* Pomo TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0FD8D629BC7C600064604F /* Build configuration list for PBXNativeTarget "Pomo TimerTests" */;
+			buildPhases = (
+				BB0FD8BB29BC7C600064604F /* Sources */,
+				BB0FD8BC29BC7C600064604F /* Frameworks */,
+				BB0FD8BD29BC7C600064604F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0FD8C129BC7C600064604F /* PBXTargetDependency */,
+			);
+			name = "Pomo TimerTests";
+			productName = "Pomo TimerTests";
+			productReference = BB0FD8BF29BC7C600064604F /* Pomo TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0FD8C829BC7C600064604F /* Pomo TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0FD8D929BC7C600064604F /* Build configuration list for PBXNativeTarget "Pomo TimerUITests" */;
+			buildPhases = (
+				BB0FD8C529BC7C600064604F /* Sources */,
+				BB0FD8C629BC7C600064604F /* Frameworks */,
+				BB0FD8C729BC7C600064604F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0FD8CB29BC7C600064604F /* PBXTargetDependency */,
+			);
+			name = "Pomo TimerUITests";
+			productName = "Pomo TimerUITests";
+			productReference = BB0FD8C929BC7C600064604F /* Pomo TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0FD8A729BC7C5F0064604F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BB0FD8AE29BC7C5F0064604F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BB0FD8BE29BC7C600064604F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB0FD8AE29BC7C5F0064604F;
+					};
+					BB0FD8C829BC7C600064604F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB0FD8AE29BC7C5F0064604F;
+					};
+				};
+			};
+			buildConfigurationList = BB0FD8AA29BC7C5F0064604F /* Build configuration list for PBXProject "Pomo Timer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0FD8A629BC7C5F0064604F;
+			productRefGroup = BB0FD8B029BC7C5F0064604F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0FD8AE29BC7C5F0064604F /* Pomo Timer */,
+				BB0FD8BE29BC7C600064604F /* Pomo TimerTests */,
+				BB0FD8C829BC7C600064604F /* Pomo TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0FD8AD29BC7C5F0064604F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FD8BA29BC7C600064604F /* Preview Assets.xcassets in Resources */,
+				BB0FD8B729BC7C600064604F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FD8BD29BC7C600064604F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FD8C729BC7C600064604F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0FD8AB29BC7C5F0064604F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FD8DD29BC7CA00064604F /* AppDelegate.swift in Sources */,
+				BB0FD8E129BC7D0E0064604F /* TimerManager.swift in Sources */,
+				BB0FD8B529BC7C5F0064604F /* ContentView.swift in Sources */,
+				BB0FD8DF29BC7CDD0064604F /* SceneDelegate.swift in Sources */,
+				BB0FD8E329BC7D380064604F /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FD8BB29BC7C600064604F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FD8C429BC7C600064604F /* Pomo_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FD8C529BC7C600064604F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FD8CE29BC7C600064604F /* Pomo_TimerUITests.swift in Sources */,
+				BB0FD8D029BC7C600064604F /* Pomo_TimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0FD8C129BC7C600064604F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0FD8AE29BC7C5F0064604F /* Pomo Timer */;
+			targetProxy = BB0FD8C029BC7C600064604F /* PBXContainerItemProxy */;
+		};
+		BB0FD8CB29BC7C600064604F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0FD8AE29BC7C5F0064604F /* Pomo Timer */;
+			targetProxy = BB0FD8CA29BC7C600064604F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB0FD8D129BC7C600064604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB0FD8D229BC7C600064604F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0FD8D429BC7C600064604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomo Timer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khamza-Kabylbek.Pomo-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0FD8D529BC7C600064604F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomo Timer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khamza-Kabylbek.Pomo-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0FD8D729BC7C600064604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khamza-Kabylbek.Pomo-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomo Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pomo Timer";
+			};
+			name = Debug;
+		};
+		BB0FD8D829BC7C600064604F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khamza-Kabylbek.Pomo-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomo Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pomo Timer";
+			};
+			name = Release;
+		};
+		BB0FD8DA29BC7C600064604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khamza-Kabylbek.Pomo-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pomo Timer";
+			};
+			name = Debug;
+		};
+		BB0FD8DB29BC7C600064604F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Khamza-Kabylbek.Pomo-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pomo Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0FD8AA29BC7C5F0064604F /* Build configuration list for PBXProject "Pomo Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FD8D129BC7C600064604F /* Debug */,
+				BB0FD8D229BC7C600064604F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0FD8D329BC7C600064604F /* Build configuration list for PBXNativeTarget "Pomo Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FD8D429BC7C600064604F /* Debug */,
+				BB0FD8D529BC7C600064604F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0FD8D629BC7C600064604F /* Build configuration list for PBXNativeTarget "Pomo TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FD8D729BC7C600064604F /* Debug */,
+				BB0FD8D829BC7C600064604F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0FD8D929BC7C600064604F /* Build configuration list for PBXNativeTarget "Pomo TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FD8DA29BC7C600064604F /* Debug */,
+				BB0FD8DB29BC7C600064604F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0FD8A729BC7C5F0064604F /* Project object */;
+}
